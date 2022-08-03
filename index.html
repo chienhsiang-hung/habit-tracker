@@ -67,16 +67,5 @@
         'floating-chat.donateButton.text-color': '#fff'
       });
     </script>
-    <script>
-      function submit() {
-        let user = document.getElementById("user").value;
-        document.getElementById('my-card-svg-copy')['value'] = '![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?' + user + ')';
-        document.getElementById('my-card-svg')['src'] = 'https://kaggle-card.chienhsiang-hung.eu.org/api/svg?' + user;
-        document.getElementById('my-card-svg-allround-copy')['value'] = '![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?' + user + ')';
-        document.getElementById('my-card-svg-allround')['src'] = 'https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?' + user;
-        document.getElementById('my-card-html-copy')['value'] = '<iframe src="https://kaggle-card.chienhsiang-hung.eu.org/api/basic?' + user + '" width="100%" height="300" style="border:none; min-width: 800px;"></iframe>';
-        document.getElementById('my-card-html')['src'] = 'https://kaggle-card.chienhsiang-hung.eu.org/api/basic?' + user;
-      }
-    </script>
   </body>
 </html>
